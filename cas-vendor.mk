@@ -232,6 +232,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/vendor/firmware/ipa_uc.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b02 \
     vendor/xiaomi/cas/proprietary/vendor/firmware/ipa_uc.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.elf \
     vendor/xiaomi/cas/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
+    vendor/xiaomi/cas/proprietary/vendor/firmware/rcv_voice_delta.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/rcv_voice_delta.txt \
+    vendor/xiaomi/cas/proprietary/vendor/firmware/spk1_playback_delta.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk1_playback_delta.txt \
+    vendor/xiaomi/cas/proprietary/vendor/firmware/spk1_voice_delta.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk1_voice_delta.txt \
+    vendor/xiaomi/cas/proprietary/vendor/firmware/spk2_playback_delta.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk2_playback_delta.txt \
+    vendor/xiaomi/cas/proprietary/vendor/firmware/spk2_voice_delta.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/spk2_voice_delta.txt \
     vendor/xiaomi/cas/proprietary/vendor/lib64/camera/com.qti.sensormodule.cas_ofilm_imx350_ultra_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.cas_ofilm_imx350_ultra_wide.bin \
     vendor/xiaomi/cas/proprietary/vendor/lib64/camera/com.qti.sensormodule.cas_semco_ov48c_wide.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.cas_semco_ov48c_wide.bin \
     vendor/xiaomi/cas/proprietary/vendor/lib64/camera/com.qti.sensormodule.cas_semco_s5k2l7_tele2x.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.cas_semco_s5k2l7_tele2x.bin \
