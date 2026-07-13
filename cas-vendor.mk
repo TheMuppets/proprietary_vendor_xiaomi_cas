@@ -80,25 +80,52 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/beauty_ui9_intelligent_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_ui9_intelligent_params.config \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/bokehParams.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bokehParams.json \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/com.xiaomi.dcal.tt4x.fake:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.tt4x.fake \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/com.xiaomi.dcal.tt4x.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.tt4x.golden \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/com.xiaomi.dcal.wt.fake:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wt.fake \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/com.xiaomi.dcal.wt.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wt.golden \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/com.xiaomi.dcal.wt4x.fake:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wt4x.fake \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/com.xiaomi.dcal.wu.fake:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wu.fake \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/com.xiaomi.dcal.wu.golden:$(TARGET_COPY_OUT_VENDOR)/etc/camera/com.xiaomi.dcal.wu.golden \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/deblur_chess_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/deblur_chess_dsp.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/deblur_chess_gpu.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/deblur_chess_gpu.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/deblur_nonchess_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/deblur_nonchess_dsp.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/deblur_nonchess_gpu.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/deblur_nonchess_gpu.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/deblur_txt_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/deblur_txt_dsp.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/deblur_txt_gpu.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/deblur_txt_gpu.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/deblur_txt_npu.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/deblur_txt_npu.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/deblur_wood_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/deblur_wood_dsp.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/deblur_wood_gpu.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/deblur_wood_gpu.dlc \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/det_quantize.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/det_quantize.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/dualcam_bokeh_params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dualcam_bokeh_params.json \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/eisoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eisoverridesettings.txt \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/eyelineblush.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eyelineblush.cng \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/goturn_search_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goturn_search_dsp.dlc \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/goturn_target_dsp.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goturn_target_dsp.dlc \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/hdrd_ui9_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdrd_ui9_params.config \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/hdsr_tuning_params_J1S_1xWide_OV48C.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdsr_tuning_params_J1S_1xWide_OV48C.xml \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/hdsr_tuning_params_J1S_2xTele_S5K2L7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdsr_tuning_params_J1S_2xTele_S5K2L7.xml \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/hdsr_tuning_params_J1S_5xTele_IMX586.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hdsr_tuning_params_J1S_5xTele_IMX586.xml \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/intsense_config_optical_zoom_3sat.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/intsense_config_optical_zoom_3sat.bin \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/intsense_config_optical_zoom_4sat.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/intsense_config_optical_zoom_4sat.bin \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/merge_coeff_h3000w4000.w0:$(TARGET_COPY_OUT_VENDOR)/etc/camera/merge_coeff_h3000w4000.w0 \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/merge_coeff_h3000w4000.w1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/merge_coeff_h3000w4000.w1 \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/miai_psn_config.yaml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/miai_psn_config.yaml \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/mibokeh/add_concat_quantize_encry.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh/add_concat_quantize_encry.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/mibokeh/model_dxo.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh/model_dxo.dlc \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/mibokeh_855_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_855_opencl.bin \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/mibokeh_855_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_855_parameter.bin \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/misupermoon/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/misupermoon/MobNetv2TF_0.35_iter200000_zoom2.5x_h1500w2000.dlc \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/model.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model.dat \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/model_back.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_back.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/model_back_deblur.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_back_deblur.dlc \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/model_front.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_front.dlc \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/model_front_mibokeh_video.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_front_mibokeh_video.dlc \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/multianchor.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/multianchor.txt \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/preview_bokeh_params.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/preview_bokeh_params.json \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/reid_float.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/reid_float.dlc \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sceneDetection.xml \
+    vendor/xiaomi/cas/proprietary/vendor/etc/camera/scene_model_ext.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/scene_model_ext.dlc \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/seg_quantized.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/seg_quantized.dlc \
     vendor/xiaomi/cas/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/xiaomi/cas/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
