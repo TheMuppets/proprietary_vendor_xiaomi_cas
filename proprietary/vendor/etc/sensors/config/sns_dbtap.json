@@ -1,7 +1,7 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Dragon", "Surf", "CMI"],
+    "hw_platform": ["MTP", "Dragon", "Surf", "URD", "VERTHANDI", "CAS"],
     "soc_id": ["291", "246", "305", "321", "339", "356"]
   },
   "dbtap":{
@@ -9,7 +9,7 @@
     ".times":{
       "owner": "sns_dbtap",
       "ALGO_DBP_maxTimeForThree":{
-        "ver": "0", "type": "flt", "data": "400"
+        "ver": "0", "type": "flt", "data": "500"
       }
     },
     ".GroVal":{
